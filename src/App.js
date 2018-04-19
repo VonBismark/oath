@@ -4,15 +4,25 @@ import './App.css';
 
 class App extends Component {
   render() {
+    const miniMallUrl = 'https://mini-mall-598ac.firebaseapp.com/';
+    const spreadProps = {
+      src: miniMallUrl,
+      height: '100%',
+      id: 'iframe_mini_mall',
+    };
+
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
+          <img src="https://imagehost.vendio.com/a/35190793/view/GG1PgLG.jpg" className="App-logo" alt="logo" />
+          <h1 className="App-title">Welcome to Mini-Mall</h1>
         </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+
+        <section className="mini-mall-section">
+          <div className="mini-mall-webview">
+           {typeof Windows !== 'undefined' ? <x-ms-webview className="checkout-interface" {...spreadProps} /> : <iframe title="minimall" className="checkout-interface" {...spreadProps} />}
+          </div>
+        </section>
       </div>
     );
   }
