@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "demos-b4447"
+    "default": "demos-b4447",
+    "paid": "movies-freek"
   }
 }
