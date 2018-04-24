@@ -20,7 +20,7 @@ class App extends Component {
 
         <section className="mini-mall-section">
           <div className="mini-mall-webview">
-           {typeof Windows !== 'undefined' ? <x-ms-webview className="checkout-interface" {...spreadProps} /> : <iframe title="minimall" className="checkout-interface" {...spreadProps} />}
+           {typeof Windows !== 'undefined' ? <x-ms-webview class="checkout-interface" {...spreadProps} /> : <iframe title="minimall" className="checkout-interface" {...spreadProps} />}
           </div>
         </section>
       </div>
