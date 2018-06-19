@@ -4,7 +4,7 @@ import './App.css';
 
 class App extends Component {
   render() {
-    const miniMallUrl = 'https://minimall.herokuapp.com/';
+    const miniMallUrl = 'https://mini-mall-598ac.firebaseapp.com/';
     const spreadProps = {
       src: miniMallUrl,
       height: '100%',
