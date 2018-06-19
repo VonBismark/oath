@@ -8,6 +8,7 @@ class App extends Component {
     const spreadProps = {
       src: miniMallUrl,
       height: '100%',
+      width: '100%',
       id: 'iframe_mini_mall',
     };
 

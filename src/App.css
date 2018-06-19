@@ -38,7 +38,7 @@
 }
 .mini-mall-webview {
   height: 100%;
-  max-width: 380px;
+  min-width: 680px;
 }
 
 .checkout-interface {
